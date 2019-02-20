@@ -5,13 +5,41 @@
     <title>Antsy Proxy Server (solo)</title>
   </head>
   <body>
-    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-    <div id='carousel'></div>
-    <br></br>
-    <div id='store'></div>
-    <br></br>
-    <div id='reviews'></div>
+      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+      <style>
+          .flexcontainer {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+          }
+          .footer {
+            display: block;
+            margin-left: 100px;
+          }
+      </style>
+
+    <div id='header'>
+      <img src="header.png">
+    </div>
+
+    <div class='flexcontainer'>
+      <div>
+        <div id='carousel'></div>
+        <div id='reviews'></div>
+      </div>
+
+      <div id='checkout'>
+          <div id='store'></div>
+          <img src='shopitems.png'>
+      </div>
+
+    </div>
+
+    <div class='footer'>
+        <img src='footer.png'>
+      </div>
     <!-- Carousel -->
     <script src="http://localhost:3000/product/1/bundle.js"></script>
     <!-- Checkout -->

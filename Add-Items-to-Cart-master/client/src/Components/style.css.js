@@ -1,7 +1,8 @@
 export default {
 
   container : {
-    height: '1000px',
+    // height: '1000px',
+    marginTop: '50px',
     width: '390px',
     float: 'right',
     marginRight: '10%'
