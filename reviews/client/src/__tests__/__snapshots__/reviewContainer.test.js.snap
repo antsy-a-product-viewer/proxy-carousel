@@ -1,0 +1,246 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly with props 1`] = `
+<div>
+  <div
+    className="review"
+    key="0"
+    style={
+      Object {
+        "display": "flex",
+        "marginBottom": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <img
+      src="https://s3-us-west-1.amazonaws.com/antsyuserimages/00010.jpg"
+      style={
+        Object {
+          "borderRadius": 50,
+          "cursor": "pointer",
+          "height": 50,
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    />
+    <div>
+      <Review
+        key="532"
+        review={
+          Object {
+            "created_at": "2014-02-15T21:43:09.000Z",
+            "item_id": 72,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00072.jpg",
+            "item_name": "Ergonomic Concrete Tuna",
+            "review": "You can't connect the pixel without overriding the auxiliary RSS card!",
+            "review_id": 532,
+            "stars": 5,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00010.jpg",
+            "user_name": "Jalen Paucek",
+          }
+        }
+        stars={5}
+      />
+      <Item
+        key="72"
+        review={
+          Object {
+            "created_at": "2014-02-15T21:43:09.000Z",
+            "item_id": 72,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00072.jpg",
+            "item_name": "Ergonomic Concrete Tuna",
+            "review": "You can't connect the pixel without overriding the auxiliary RSS card!",
+            "review_id": 532,
+            "stars": 5,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00010.jpg",
+            "user_name": "Jalen Paucek",
+          }
+        }
+        showPrice="false"
+      />
+    </div>
+  </div>
+  <div
+    className="review"
+    key="1"
+    style={
+      Object {
+        "display": "flex",
+        "marginBottom": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <img
+      src="https://s3-us-west-1.amazonaws.com/antsyuserimages/00027.jpg"
+      style={
+        Object {
+          "borderRadius": 50,
+          "cursor": "pointer",
+          "height": 50,
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    />
+    <div>
+      <Review
+        key="119"
+        review={
+          Object {
+            "created_at": "2014-03-14T22:37:45.000Z",
+            "item_id": 30,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00030.jpg",
+            "item_name": "Handmade Concrete Salad",
+            "review": "Try to hack the SQL transmitter, maybe it will navigate the multi-byte bus!",
+            "review_id": 119,
+            "stars": 4,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00027.jpg",
+            "user_name": "Zella Blick",
+          }
+        }
+        stars={4}
+      />
+      <Item
+        key="30"
+        review={
+          Object {
+            "created_at": "2014-03-14T22:37:45.000Z",
+            "item_id": 30,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00030.jpg",
+            "item_name": "Handmade Concrete Salad",
+            "review": "Try to hack the SQL transmitter, maybe it will navigate the multi-byte bus!",
+            "review_id": 119,
+            "stars": 4,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00027.jpg",
+            "user_name": "Zella Blick",
+          }
+        }
+        showPrice="false"
+      />
+    </div>
+  </div>
+  <div
+    className="review"
+    key="2"
+    style={
+      Object {
+        "display": "flex",
+        "marginBottom": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <img
+      src="https://s3-us-west-1.amazonaws.com/antsyuserimages/00024.jpg"
+      style={
+        Object {
+          "borderRadius": 50,
+          "cursor": "pointer",
+          "height": 50,
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    />
+    <div>
+      <Review
+        key="35"
+        review={
+          Object {
+            "created_at": "2014-03-27T15:37:49.000Z",
+            "item_id": 91,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00091.jpg",
+            "item_name": "Rustic Metal Chair",
+            "review": "I'll generate the cross-platform COM firewall, that should driver the XSS pixel!",
+            "review_id": 35,
+            "stars": 0,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00024.jpg",
+            "user_name": "Deangelo Schuppe",
+          }
+        }
+        stars={0}
+      />
+      <Item
+        key="91"
+        review={
+          Object {
+            "created_at": "2014-03-27T15:37:49.000Z",
+            "item_id": 91,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00091.jpg",
+            "item_name": "Rustic Metal Chair",
+            "review": "I'll generate the cross-platform COM firewall, that should driver the XSS pixel!",
+            "review_id": 35,
+            "stars": 0,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00024.jpg",
+            "user_name": "Deangelo Schuppe",
+          }
+        }
+        showPrice="false"
+      />
+    </div>
+  </div>
+  <div
+    className="review"
+    key="3"
+    style={
+      Object {
+        "display": "flex",
+        "marginBottom": 10,
+        "marginTop": 10,
+      }
+    }
+  >
+    <img
+      src="https://s3-us-west-1.amazonaws.com/antsyuserimages/00014.jpg"
+      style={
+        Object {
+          "borderRadius": 50,
+          "cursor": "pointer",
+          "height": 50,
+          "marginRight": 10,
+          "width": 50,
+        }
+      }
+    />
+    <div>
+      <Review
+        key="398"
+        review={
+          Object {
+            "created_at": "2014-05-01T06:50:00.000Z",
+            "item_id": 4,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00004.jpg",
+            "item_name": "Generic Steel Soap",
+            "review": "We need to reboot the primary XML circuit!",
+            "review_id": 398,
+            "stars": 3,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00014.jpg",
+            "user_name": "Stacey Spencer",
+          }
+        }
+        stars={3}
+      />
+      <Item
+        key="4"
+        review={
+          Object {
+            "created_at": "2014-05-01T06:50:00.000Z",
+            "item_id": 4,
+            "item_img": "https://s3-us-west-1.amazonaws.com/antsyitemsimages/00004.jpg",
+            "item_name": "Generic Steel Soap",
+            "review": "We need to reboot the primary XML circuit!",
+            "review_id": 398,
+            "stars": 3,
+            "user_img": "https://s3-us-west-1.amazonaws.com/antsyuserimages/00014.jpg",
+            "user_name": "Stacey Spencer",
+          }
+        }
+        showPrice="false"
+      />
+    </div>
+  </div>
+</div>
+`;

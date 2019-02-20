@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  id="container"
+>
+  <div
+    id="description"
+  >
+    <div>
+      <div
+        className="description"
+        style={
+          Object {
+            "fontSize": "24px",
+            "fontWeight": "bold",
+          }
+        }
+      />
+       
+      <br />
+      <div
+        style={
+          Object {
+            "marginBottom": "18px",
+          }
+        }
+      >
+        <span
+          className="price"
+          style={
+            Object {
+              "fontSize": "24px",
+              "fontWeight": "bold",
+            }
+          }
+        >
+           
+          $
+           
+        </span>
+        <span
+          className="question"
+        >
+          <button
+            className="askQuestion"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "white",
+                "cursor": "pointer",
+                "float": "right",
+                "fontWeight": "bold",
+                "height": "24px",
+                "width": "120px",
+              }
+            }
+          >
+             
+            Ask A Question
+             
+          </button>
+        </span>
+      </div>
+      <div
+        className="optionNames"
+      />
+       
+      <div>
+        <div
+          id="addToCard"
+        >
+          <button
+            className="addToCart"
+            onClick={[Function]}
+            style={
+              Object {
+                "backgroundColor": "#222222",
+                "color": "white",
+                "cursor": "pointer",
+                "fontSize": "16px",
+                "height": "35px",
+                "width": "390px",
+              }
+            }
+          >
+             
+            Add to Cart
+             
+          </button>
+        </div>
+        <div>
+          <span
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+            <img
+              src="https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/mCz7hqj/videoblocks-shopping-trolley-cart-icon-in-and-out-animation-black-and-white_bfguek3mbz_thumbnail-full05.png"
+              style={
+                Object {
+                  "height": "50px",
+                  "width": "90px",
+                }
+              }
+            />
+          </span>
+          <span
+            style={
+              Object {
+                "float": "left",
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Other people want this. 
+          </span>
+          <span
+            style={
+              Object {
+                "float": "left",
+              }
+            }
+          >
+             
+            5
+             
+            people have this in their carts right now
+             
+          </span>
+        </div>
+      </div>
+       
+      <br />
+       
+      <br />
+       
+      <br />
+      <hr />
+      <div
+        className="overview"
+      />
+      <div
+        className="ShippingInfo"
+      />
+      <div
+        className="ReturnPolicy"
+      />
+    </div>
+  </div>
+</div>
+`;
