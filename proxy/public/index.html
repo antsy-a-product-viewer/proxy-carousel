@@ -5,14 +5,14 @@
     <title>Antsy Product Viewer</title>
   </head>
   <body>
-      <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-      <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-
       <style>
           .flexcontainer {
             display: flex;
             align-items: flex-start;
             justify-content: center;
+          }
+          #carousel {
+            height: 800px;
           }
           .header {
             display: block;
@@ -33,7 +33,9 @@
     <div class='flexcontainer'>
       <div>
         <div id='carousel'></div>
+        <br>
         <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/description2.png'>
+        <br>
         <div id='reviews'></div>
       </div>
 
@@ -41,15 +43,16 @@
           <div id='store'></div>
           <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/shopitems.png'>
       </div>
-
     </div>
 
     <div class='footer'>
         <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/related-items.png'>
         <br>
         <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/footer.png'>
-      </div>
-    <!-- Carousel -->
+    </div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <!-- Carousel -->
     <script src="http://ec2-184-73-119-71.compute-1.amazonaws.com/product/2/bundle.js"></script>
     <!-- Checkout -->
     <script src="http://ec2-34-217-208-55.us-west-2.compute.amazonaws.com/product/1/bundle.js"></script>
