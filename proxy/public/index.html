@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Antsy Proxy Server (solo)</title>
+    <title>Antsy Product Viewer</title>
   </head>
   <body>
       <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
@@ -14,31 +14,40 @@
             align-items: flex-start;
             justify-content: center;
           }
+          .header {
+            display: block;
+            color: orange;
+            font-size: 36px;
+          }
           .footer {
             display: block;
             margin-left: 100px;
           }
       </style>
 
-    <div id='header'>
-      <img src="header.png">
+    <div class='header'>
+      Antsy<img src="https://s3-us-west-1.amazonaws.com/antsyscreenshots/header.png">
+      <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/navbar.png'>
     </div>
 
     <div class='flexcontainer'>
       <div>
         <div id='carousel'></div>
+        <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/description2.png'>
         <div id='reviews'></div>
       </div>
 
       <div id='checkout'>
           <div id='store'></div>
-          <img src='shopitems.png'>
+          <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/shopitems.png'>
       </div>
 
     </div>
 
     <div class='footer'>
-        <img src='footer.png'>
+        <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/related-items.png'>
+        <br>
+        <img src='https://s3-us-west-1.amazonaws.com/antsyscreenshots/footer.png'>
       </div>
     <!-- Carousel -->
     <script src="http://ec2-184-73-119-71.compute-1.amazonaws.com/product/2/bundle.js"></script>
